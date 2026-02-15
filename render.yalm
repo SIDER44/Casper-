@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: casper-whatsapp-bot
+    runtime: node
+    buildCommand: npm install
+    startCommand: node index.js
+    plan: free
