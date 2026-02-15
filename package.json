@@ -1,17 +1,18 @@
 {
   "name": "casper-whatsapp-bot",
-  "version": "1.0.0",
-  "description": "Casper WhatsApp Bot",
+  "version": "2.0.0",
+  "description": "Casper WhatsApp Bot - Enhanced Version",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "^6.0.0",
-    "qrcode-terminal": "^0.12.0",
+    "@whiskeysockets/baileys": "^6.5.0",
+    "@hapi/boom": "^10.0.1",
+    "qrcode": "^1.5.3",
     "express": "^4.18.2"
   },
   "keywords": ["whatsapp", "bot", "casper"],
-  "author": "Your Name",
+  "author": "almeer",
   "license": "MIT"
 }
